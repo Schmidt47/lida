@@ -1,0 +1,8 @@
+QGraphicsRectItem *frame = new QGraphicsRectItem(0, 0, 200, 200);
+frame->setPen(QPen(Qt::black));
+frame->setBrush(QBrush(Qt::white));
+scene->addItem(frame);
+QGraphicsEllipseItem *center = new QGraphicsEllipseItem(90, 90, 20, 20);
+center->setPen(QPen(Qt::black));
+center->setBrush(QBrush(Qt::black));
+scene->addItem(center);
