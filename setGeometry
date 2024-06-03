@@ -1,0 +1,7 @@
+QLabel *tempLabel = new QLabel(this);
+tempLabel->setText("Temp: 0℃");
+tempLabel->setGeometry(20, 20, 100, 20);
+QGraphicsView *view = new QGraphicsView(this);
+view->setGeometry(20, 50, 200, 200);
+QGraphicsView *view = new QGraphicsView(this);
+view->setGeometry(20, 50, 200, 200);
